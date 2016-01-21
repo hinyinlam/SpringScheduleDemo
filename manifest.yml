@@ -1,0 +1,8 @@
+---
+applications:
+- name: springscheduledemo
+  memory: 512M
+  path: build/classes/artifacts/SpringSchedulerDemo/HinSpringTaskSchedulerDemo-0.0.1-SNAPSHOT.war
+  env:
+    cronschedule: "* * * * * *"
+    croncommand: java -jar ThisIsAPlainJavaMainProgra.jar 10
